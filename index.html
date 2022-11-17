@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Node Docker Tutorial</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="d-flex justify-content-center py-3">
+      <h1 class="display-1">Node-Docker-Tutorial</h1>
+    </header>
+    <div class="box">
+      <div class="box-1 text-center">
+        <h1 class="dispalay-1">What is Docker?</h1>
+        <p class="fs-5 text-center">
+          Docker is an open platform for developing, shipping, and running
+          applications. Docker enables you to separate your applications from
+          your
+        </p>
+        <p class="fs-5">
+          infrastructure so you can deliver software quickly. With Docker, you
+          can manage your infrastructure in the same ways you manage your
+        </p>
+        <p class="fs-5">
+          applications. By taking advantage of Docker’s methodologies for
+          shipping, testing, and deploying code quickly, you can
+        </p>
+        <p class="fs-5">
+          significantly reduce the delay between writing code and running it in
+          production.
+        </p>
+      </div>
+      <div class="box-2 text-center">
+        <h1 class="dispalay-1">Prerequisites</h1>
+
+        <li class="list-group-item">
+          <a
+            class="link-secondary"
+            href="https://learn.microsoft.com/en-us/windows/wsl/install"
+            >WSL</a
+          >
+        </li>
+        <li class="list-group-item">
+          <a
+            class="link-secondary"
+            href="https://www.docker.com/products/docker-desktop/"
+            >Docker Desktop</a
+          >
+        </li>
+      </div>
+      <br />
+      <div class="box-3 text-center">
+        <h1 class="dispalay-1">Create Node App</h1>
+        <img
+          src="https://sarthaksrivastavablog.files.wordpress.com/2019/06/1b.png"
+          alt=""
+        />
+      </div>
+      <br />
+      <div class="box-4 text-center">
+        <h1 class="dispalay-1">Create Dockerfile</h1>
+        <img
+          src="https://miro.medium.com/max/604/1*Z_LiKmAQ-0w6_AJLG4W0QQ.png"
+          alt=""
+        />
+      </div>
+      <br />
+      <div class="box-5 text-center">
+        <h1 class="display-1">Build An Image</h1>
+        <p class="fs-5 text-center">Open the Terminal</p>
+        <p class="fs-5 text-center"><code>docker build -t app .</code></p>
+      </div>
+      <br />
+      <div class="box-6 text-center">
+        <h1 class="display-1">Run The Image</h1>
+        <p class="fs-5 text-center">Open the Terminal</p>
+        <p class="fs-5 text-center"><code>docker run -p 8080:PORT app</code></p>
+        <p class="fs-5 text-center">Open the browser.</p>
+        <p>open http://localhost:8080/ .</p>
+      </div>
+    </div>
+  </body>
+</html>
